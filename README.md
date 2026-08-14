@@ -89,14 +89,10 @@ The platform validates that the new image is *compatible* with the VM (VM size s
         Once you receive confirmation, confirm the feature reads <code>Registered</code>, then re-register the Compute
         resource provider so the flag propagates:
 <pre><code>az account set --subscription &lt;your-subscription-id&gt;
-
-# Confirm the feature shows as Registered
-az feature show --namespace Microsoft.Compute \
-  --name ImageReferenceUpdateForSIVMs --query properties.state -o tsv
-
-# Propagate the registration to the resource provider (takes a few minutes)
-az provider register --namespace Microsoft.Compute
-</code></pre>
+&#35; Confirm the feature shows as Registered
+az feature show --namespace Microsoft.Compute --name ImageReferenceUpdateForSIVMs --query properties.state -o tsv
+&#35; Propagate the registration to the resource provider (takes a few minutes)
+az provider register --namespace Microsoft.Compute</code></pre>
         Expected output from the first command: <code>Registered</code>. If it returns <code>NotRegistered</code>
         or the command errors, reply to your onboarding email before proceeding.
       </td>
@@ -126,11 +122,20 @@ Two modes:
 | **Metadata-only** (default) | Only the control-plane record changes. OS disk and running guest are untouched. | None. VM keeps running. |
 | **Update + reimage** | The record changes **and** the OS disk is reset from the new image. | OS disk is wiped and rebuilt. Data disks, NICs, and VM identity are preserved. |
 
-Reimage is opt-in through a VM resource tag, described in 3.3.
+Reimage is opt-in through a VM resource tag, described in 3.2.
 
 ### 3.1 Metadata-only update
 
-This is the mode most customers want after an in-place OS upgrade.
+This is the mode most customers want after an in-place OS upgrade. Which properties you set depends on where the image comes from:
+
+| Image source | Property to set |
+|---|---|
+| Platform / Marketplace image (PIR) | `publisher`, `offer`, `sku`, `version` |
+| Azure Compute Gallery (RBAC) | `id` (gallery **image version** resource ID) |
+| Direct shared gallery | `sharedGalleryImageId` |
+| Community gallery | `communityGalleryImageId` |
+
+On an existing third-party Marketplace VM, leave the root-level `plan` block untouched. Plan fields are immutable.
 
 **REST (Azure CLI)** — platform / Marketplace image:
 
@@ -182,18 +187,7 @@ Update-AzVM -ResourceGroupName <rg> -VM $vm
 
 > **Azure CLI note:** `az vm update --set storageProfile.imageReference.*` does **not** work in this preview. Use `az rest` or PowerShell. Native `az vm` support is tracked for a later milestone.
 
-### 3.2 Supported image reference forms
-
-| Source | Property to set |
-|---|---|
-| Platform / Marketplace image (PIR) | `publisher`, `offer`, `sku`, `version` |
-| Azure Compute Gallery (RBAC) | `id` (gallery **image version** resource ID) |
-| Direct shared gallery | `sharedGalleryImageId` |
-| Community gallery | `communityGalleryImageId` |
-
-On an existing third-party Marketplace VM, leave the root-level `plan` block untouched. Plan fields are immutable.
-
-### 3.3 Update + reimage
+### 3.2 Update + reimage
 
 Reimage is driven by a **VM resource tag**, not a request body property. Set the tag immediately before the PATCH:
 
@@ -229,7 +223,7 @@ az rest --method PATCH `
 **What reimage preserves:** VM identity, NICs, data disks, extensions configuration, tags.
 **What reimage destroys:** everything on the OS disk.
 
-### 3.4 Verify the result
+### 3.3 Verify the result
 
 ```powershell
 az vm show -g <rg> -n <vm> --query "storageProfile.imageReference" -o json
@@ -299,7 +293,7 @@ Failures return HTTP 4xx with top-level code `InvalidImageReference` and a detai
 
 1. **Azure CLI has no native support.** `az vm update` cannot set `imageReference`. Use `az rest`, PowerShell, or ARM/Bicep.
 2. **Portal support is not available** in this preview. The VM Configuration blade cannot set the image reference yet.
-3. **Reimage is tag-driven, not a body property.** `reimageOnImageUpdate` as a request body field is **not** accepted on any currently registered API version. Use the `ReimageOnImageReferenceUpdate` tag as shown in 3.3. The typed property arrives with a future API version.
+3. **Reimage is tag-driven, not a body property.** `reimageOnImageUpdate` as a request body field is **not** accepted on any currently registered API version. Use the `ReimageOnImageReferenceUpdate` tag as shown in 3.2. The typed property arrives with a future API version.
 4. **Null to non-null is not included.** VMs with no image reference at all cannot have one set in this preview. See Section 4.
 5. **API version may change.** The preview runs on the current registered API version (`2026-04-01` at time of writing). GA will introduce a new API version with a formal contract. Scripts written against the preview may need updating.
 
@@ -317,7 +311,19 @@ The corrected reference persists across deallocate/start, restart, redeploy, res
 ## 7. Support and feedback
 
 - **Onboarding issues, AFEC registration:** reply to your onboarding confirmation email.
-- **Bugs, unexpected errors, feature requests:** include the subscription ID, VM resource ID, full request body, and the complete error response.
-- **Do not open a standard Azure support ticket** for preview issues; support engineers do not have context on this preview. Use the onboarding contact instead.
+- **Bugs, unexpected errors, feature requests:** submit the **preview feedback form** at `<INSERT MICROSOFT FORMS FEEDBACK URL>`. Use the form rather than free-form email so reports arrive in a consistent, triageable format.
+- **Do not open a standard Azure support ticket** for preview issues; support engineers do not have context on this preview. Use the feedback form instead.
+
+The feedback form asks for:
+
+| Field | Notes |
+|---|---|
+| Subscription ID | Required |
+| VM resource ID | Required |
+| What you were trying to do | Required. Metadata-only update or update + reimage. |
+| Full request body | Required. Redact any password before submitting. |
+| Complete error response | Required if the request failed. Include the top-level and detail error codes. |
+| Expected vs actual behavior | Required |
+| Severity / blocking status | Optional. Tell us if this blocks your validation. |
 
 Tell us what worked and what did not. Preview feedback directly shapes the GA contract, especially around metadata-only semantics, tooling coverage, and the reimage opt-in mechanism.
