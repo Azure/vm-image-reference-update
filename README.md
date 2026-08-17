@@ -1,7 +1,7 @@
 # Update VM Image Reference (Single-Instance VMs) — Private Preview
 
 **Feature:** `Microsoft.Compute/ImageReferenceUpdateForSIVMs`
-**Status:** Private Preview (allowlist-gated, by subscription)
+**Status:** Private Preview (enabled per subscription, by request)
 **Scope:** Existing single-instance Azure VMs that already have an image reference. VM Scale Sets use their own image-upgrade path and are not covered here.
 
 > ### ⚠️ Private Preview disclaimer
@@ -33,7 +33,7 @@ Onboard if you have VMs where the recorded image no longer matches reality:
 | **Deleted or invalid gallery image** | The Azure Compute Gallery image version the VM was created from was deleted. Reimage and reporting now fail. |
 | **Fleet reporting is wrong** | Your OS-distribution dashboards and compliance reports do not reflect what your VMs are actually running. |
 
-> VMs with a **null** image reference (restored from Azure Backup, Site Recovery, Azure Migrate, or built by attaching an OS disk) are **not** covered by this preview. Setting a reference on those VMs is a later milestone.
+> VMs with a **null** image reference (restored from Azure Backup, Site Recovery, Azure Migrate, or built by attaching an OS disk) are **not** covered by this preview. Setting a reference on those VMs is planned for a future release.
 
 ### What this does **not** do
 
@@ -57,7 +57,7 @@ The platform validates that the new image is *compatible* with the VM (VM size s
       <td>Submit the onboarding form</td>
       <td>
         Fill out the preview request form:<br>
-        <b>Onboarding form:</b> <code>&lt;INSERT MICROSOFT FORMS URL&gt;</code>
+        <b>Onboarding form:</b> <a href="https://aka.ms/vmImageRef/PreviewOnboard">https://aka.ms/vmImageRef/PreviewOnboard</a>
         <br><br>
         You will be asked for:
         <table>
@@ -67,7 +67,7 @@ The platform validates that the new image is *compatible* with the VM (VM size s
           <tbody>
             <tr><td>Organization name</td><td>Required</td></tr>
             <tr><td>Contact name and email</td><td>Required. Use an alias we can reach for preview updates.</td></tr>
-            <tr><td><b>Azure subscription ID</b></td><td>Required. One row per subscription. This is what we allowlist.</td></tr>
+            <tr><td><b>Azure subscription ID</b></td><td>Required. One response per subscription. This is what we enable.</td></tr>
             <tr><td>Approximate VM count</td><td>Optional. Helps us size rollout.</td></tr>
             <tr><td>Scenario details</td><td>Optional. Which of the scenarios above applies to you. Very helpful for prioritization.</td></tr>
           </tbody>
@@ -76,10 +76,14 @@ The platform validates that the new image is *compatible* with the VM (VM size s
     </tr>
     <tr>
       <td align="center"><b>2</b></td>
-      <td>We allowlist your subscription</td>
+      <td>We enable your subscription</td>
       <td>
-        We register your subscription against the AFEC <code>Microsoft.Compute/ImageReferenceUpdateForSIVMs</code>.
-        You receive a confirmation email with the enabled region(s). Allow up to 3 business days.
+        We enable the subscription feature <code>Microsoft.Compute/ImageReferenceUpdateForSIVMs</code> on your subscription.
+        You receive a confirmation email once it is active. The preview is available in <b>Azure public cloud regions</b>,
+        with no restriction between them. Allow up to 3 business days.
+        <br><br>
+        Need this in a national cloud (Azure Government, Azure China)? Say so in the
+        <b>Anything else we should know</b> field on the form. We can take those up on request.
       </td>
     </tr>
     <tr>
@@ -109,6 +113,8 @@ az provider register --namespace Microsoft.Compute</code></pre>
 
 - **Permissions:** `Microsoft.Compute/virtualMachines/write` on the target VM (Virtual Machine Contributor, Contributor, or Owner). For gallery targets you also need read access to the gallery image version.
 - **VM type:** Single-instance VM only. Not a VMSS instance.
+- **Clouds and regions:** Azure public cloud only. Once your subscription is enabled, the feature works in every public cloud region available to it, with no restriction between them. National clouds (Azure Government, Azure China) are not enabled by default but can be taken up on request.
+- **API version:** `2024-11-01` or later. Earlier API versions reject the update.
 - **Tooling:** Azure CLI 2.60+ (for `az rest`) or Az PowerShell 12.0+.
 
 ---
@@ -130,7 +136,7 @@ This is the mode most customers want after an in-place OS upgrade. Which propert
 
 | Image source | Property to set |
 |---|---|
-| Platform / Marketplace image (PIR) | `publisher`, `offer`, `sku`, `version` |
+| Platform / Marketplace image | `publisher`, `offer`, `sku`, `version` |
 | Azure Compute Gallery (RBAC) | `id` (gallery **image version** resource ID) |
 | Direct shared gallery | `sharedGalleryImageId` |
 | Community gallery | `communityGalleryImageId` |
@@ -141,7 +147,7 @@ On an existing third-party Marketplace VM, leave the root-level `plan` block unt
 
 ```powershell
 az rest --method PATCH `
-  --url "https://management.azure.com/subscriptions/<sub-id>/resourceGroups/<rg>/providers/Microsoft.Compute/virtualMachines/<vm>?api-version=2026-04-01" `
+  --url "https://management.azure.com/subscriptions/<sub-id>/resourceGroups/<rg>/providers/Microsoft.Compute/virtualMachines/<vm>?api-version=2024-11-01" `
   --headers "Content-Type=application/json" `
   --body '{
     "properties": {
@@ -161,7 +167,7 @@ az rest --method PATCH `
 
 ```powershell
 az rest --method PATCH `
-  --url "https://management.azure.com/subscriptions/<sub-id>/resourceGroups/<rg>/providers/Microsoft.Compute/virtualMachines/<vm>?api-version=2026-04-01" `
+  --url "https://management.azure.com/subscriptions/<sub-id>/resourceGroups/<rg>/providers/Microsoft.Compute/virtualMachines/<vm>?api-version=2024-11-01" `
   --headers "Content-Type=application/json" `
   --body '{
     "properties": {
@@ -185,7 +191,7 @@ $vm.StorageProfile.ImageReference.Version   = "latest"
 Update-AzVM -ResourceGroupName <rg> -VM $vm
 ```
 
-> **Azure CLI note:** `az vm update --set storageProfile.imageReference.*` does **not** work in this preview. Use `az rest` or PowerShell. Native `az vm` support is tracked for a later milestone.
+> **Azure CLI note:** `az vm update --set storageProfile.imageReference.*` does **not** work in this preview. Use `az rest` or PowerShell. Native `az vm` support is planned for a future release.
 
 ### 3.2 Update + reimage
 
@@ -201,7 +207,7 @@ Then issue the PATCH. A reimaging PATCH **must** include `osProfile.adminPasswor
 
 ```powershell
 az rest --method PATCH `
-  --url "https://management.azure.com/subscriptions/<sub-id>/resourceGroups/<rg>/providers/Microsoft.Compute/virtualMachines/<vm>?api-version=2026-04-01" `
+  --url "https://management.azure.com/subscriptions/<sub-id>/resourceGroups/<rg>/providers/Microsoft.Compute/virtualMachines/<vm>?api-version=2024-11-01" `
   --headers "Content-Type=application/json" `
   --body '{
     "properties": {
@@ -235,13 +241,13 @@ If you corrected a reference to restore patching eligibility, also confirm in **
 
 ## 4. What is allowed
 
-This preview covers the **GA1 and GA2** milestones. Setting a reference on a VM that currently has **none** (null) is a later milestone and is not available here.
+Setting a reference on a VM that currently has **none** (null) is not available in this preview. Everything else below is in scope.
 
 | Current reference | New reference | Allowed |
 |---|---|---|
-| Platform (PIR) | Platform (PIR), **same publisher** | Yes |
-| Platform (PIR) | Gallery image | Yes |
-| Gallery image | Platform (PIR) | Yes |
+| Platform / Marketplace image | Platform / Marketplace image, **same publisher** | Yes |
+| Platform / Marketplace image | Gallery image | Yes |
+| Gallery image | Platform / Marketplace image | Yes |
 | Gallery image | Gallery image | Yes |
 | Managed image (legacy) | Gallery image definition | Yes |
 | Any | Managed image (legacy) | No |
@@ -295,7 +301,7 @@ Failures return HTTP 4xx with top-level code `InvalidImageReference` and a detai
 2. **Portal support is not available** in this preview. The VM Configuration blade cannot set the image reference yet.
 3. **Reimage is tag-driven, not a body property.** `reimageOnImageUpdate` as a request body field is **not** accepted on any currently registered API version. Use the `ReimageOnImageReferenceUpdate` tag as shown in 3.2. The typed property arrives with a future API version.
 4. **Null to non-null is not included.** VMs with no image reference at all cannot have one set in this preview. See Section 4.
-5. **API version may change.** The preview runs on the current registered API version (`2026-04-01` at time of writing). GA will introduce a new API version with a formal contract. Scripts written against the preview may need updating.
+5. **API version.** The preview is supported on API version `2024-11-01` and later. The API version for general availability has not been finalized, so scripts written against the preview may need updating.
 
 ### Known issues
 
@@ -310,8 +316,8 @@ The corrected reference persists across deallocate/start, restart, redeploy, res
 
 ## 7. Support and feedback
 
-- **Onboarding issues, AFEC registration:** reply to your onboarding confirmation email.
-- **Bugs, unexpected errors, feature requests:** submit the **preview feedback form** at `<INSERT MICROSOFT FORMS FEEDBACK URL>`. Use the form rather than free-form email so reports arrive in a consistent, triageable format.
+- **Onboarding issues, feature registration:** reply to your onboarding confirmation email.
+- **Bugs, unexpected errors, feature requests:** submit the **preview feedback form** at <https://aka.ms/vmImageRef/PreviewFeedback>. Use the form rather than free-form email so reports arrive in a consistent, triageable format.
 - **Do not open a standard Azure support ticket** for preview issues; support engineers do not have context on this preview. Use the feedback form instead.
 
 The feedback form asks for:
@@ -319,11 +325,17 @@ The feedback form asks for:
 | Field | Notes |
 |---|---|
 | Subscription ID | Required |
-| VM resource ID | Required |
+| VM resource ID | Required. Full ARM ID. |
+| Date of the failed request | Required. Lets us locate the operation in platform telemetry. |
+| Correlation ID | Optional but valuable. From the `x-ms-correlation-request-id` response header or the Activity Log entry. Add the time and time zone here too. |
 | What you were trying to do | Required. Metadata-only update or update + reimage. |
+| API version used | Required |
 | Full request body | Required. Redact any password before submitting. |
 | Complete error response | Required if the request failed. Include the top-level and detail error codes. |
 | Expected vs actual behavior | Required |
-| Severity / blocking status | Optional. Tell us if this blocks your validation. |
+| Whether the VM was left in a bad state | Required. A rejected request should leave your VM untouched; tell us if it did not. |
+| Severity / blocking status | Required. Tell us if this blocks your validation. |
+
+File **one response per issue**. Batching several problems into a single submission slows triage.
 
 Tell us what worked and what did not. Preview feedback directly shapes the GA contract, especially around metadata-only semantics, tooling coverage, and the reimage opt-in mechanism.
