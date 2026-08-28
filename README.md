@@ -339,3 +339,91 @@ The feedback form asks for:
 File **one response per issue**. Batching several problems into a single submission slows triage.
 
 Tell us what worked and what did not. Preview feedback directly shapes the GA contract, especially around metadata-only semantics, tooling coverage, and the reimage opt-in mechanism.
+
+---
+
+## 8. Inventory and recommendation script
+
+[`scripts/Get-AzVmImageReferenceReport.ps1`](scripts/Get-AzVmImageReferenceReport.ps1) is a read-only companion tool for identifying stale image references. It inventories standalone VMs, reads the running OS from VM Instance View, and recommends the closest compatible Marketplace image from these publishers:
+
+- `MicrosoftWindowsServer`
+- `MicrosoftWindowsDesktop`
+- `Canonical`
+- `RedHat`
+- `SUSE`
+
+The script does not update image references, reimage VMs, change tags, or accept Marketplace terms.
+
+**IMPORTANT DISCLAIMER**
+
+This script is not supported under any Microsoft standard support program or service.
+
+This script is provided AS IS without warranty of any kind. Microsoft further disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose.
+
+The entire risk arising out of the use or performance of the script and documentation remains with you. In no event shall Microsoft, its authors, or anyone else involved in the creation, production, or delivery of the script be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss) arising out of the use of or inability to use the sample scripts or documentation, even if Microsoft has been advised of the possibility of such damages.
+
+### Prerequisites and permissions
+
+- PowerShell 7.2 or later.
+- Az PowerShell with `Az.Accounts` and `Az.Compute` installed.
+- An authenticated session created with `Connect-AzAccount`.
+- Clone or download the complete repository and preserve its directory structure. The script uses the included catalog at `data/vm-image-catalog.json` relative to `scripts/Get-AzVmImageReferenceReport.ps1`.
+- Reader access on the target subscription.
+- Virtual Machine Contributor, or an equivalent custom role with Action Run Command permission, only when using `-UseRunCommandFallback`.
+
+### Scan a subscription
+
+```powershell
+./scripts/Get-AzVmImageReferenceReport.ps1 `
+  -SubscriptionId <subscription-id>
+```
+
+Limit the scan to one resource group:
+
+```powershell
+./scripts/Get-AzVmImageReferenceReport.ps1 `
+  -SubscriptionId <subscription-id> `
+  -ResourceGroupName <resource-group>
+```
+
+Scan one VM by supplying both its resource group and name:
+
+```powershell
+./scripts/Get-AzVmImageReferenceReport.ps1 `
+  -SubscriptionId <subscription-id> `
+  -ResourceGroupName <resource-group> `
+  -VMName <vm-name>
+```
+
+`-VMName` cannot be used without `-ResourceGroupName`. Targeted scans call `Get-AzVM` with the supplied scope, so unrelated VMs are not listed or processed.
+
+By default, reports are written to `output/`. Use `-OutputDirectory` or `-CatalogPath` to override either location.
+
+Instance View is the primary guest OS source. If it does not return enough information, you can explicitly allow a guest query:
+
+```powershell
+./scripts/Get-AzVmImageReferenceReport.ps1 `
+  -SubscriptionId <subscription-id> `
+  -UseRunCommandFallback
+```
+
+The fallback runs a read-only query as `SYSTEM` on Windows or an elevated user on Linux. It requires a running VM, a ready VM Agent, outbound HTTPS to Azure, and additional RBAC permission. Action Run Command normally takes at least 20 seconds per VM and returns only its final 4 KB of output.
+
+### Reports and recommendation behavior
+
+Each scan creates timestamped CSV and JSON reports in `output/`. The CSV provides the main result for each VM. The JSON adds alternatives and rejection details for troubleshooting.
+
+- `CurrentUrn` is the VM's recorded Marketplace image. `CurrentPlanUrn` contains its Marketplace purchase plan when one exists.
+- The normalized OS fields describe the operating system actually running in the VM. They can differ from `CurrentUrn` after an upgrade, restore, or disk replacement.
+- `RecommendedUrn` is the closest available and compatible Marketplace image found for the running OS and VM configuration.
+- A Marketplace image with a purchase plan is eligible only when its plan exactly matches `CurrentPlanUrn`. The script does not introduce a new plan or accept Marketplace terms.
+- Confidence is High for scores 80-100, Medium for 60-79, and Low below 60. Review Low-confidence results before updating a VM.
+
+The script validates region, OS type, architecture, Hyper-V generation, security type, and image availability. If the included catalog has no valid match, it searches the VM's region. `NoCompatibleCandidate` means the script could not find a safe recommendation.
+
+### Current limitations
+
+- Standalone VMs only. VM Scale Set instances are excluded.
+- Azure Compute Gallery, direct shared gallery, community gallery, managed image, and null references are inventoried, but recommendations target Marketplace images only.
+- OS detection depends on Instance View or the opt-in Run Command fallback. Offline and agentless VMs can remain unresolved.
+- Marketplace naming is not a formal OS taxonomy. Specialized variants such as BYOS, Pro, SAP, HPC, Core, minimal, and Azure Edition are scored and surfaced, but still require operator review.

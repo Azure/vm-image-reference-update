@@ -1,0 +1,6392 @@
+{
+  "schemaVersion": 3,
+  "scope": "MarketplaceImageNames",
+  "generatedAtUtc": "2026-08-28T16:14:05.2240634+00:00",
+  "baseRegion": "westus3",
+  "publishers": [
+    "MicrosoftWindowsServer",
+    "MicrosoftWindowsDesktop",
+    "Canonical",
+    "RedHat",
+    "SUSE"
+  ],
+  "generator": {
+    "script": "Get-AzVmImageReferenceReport.ps1",
+    "powerShellVersion": "7.6.5",
+    "azComputeVersion": "11.4.0"
+  },
+  "isPartial": false,
+  "entries": [
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-confidential-vm-experimental",
+      "sku": "20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-confidential-vm-focal",
+      "sku": "20_04-lts-cvm"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-confidential-vm-focal",
+      "sku": "20_04-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-confidential-vm-jammy",
+      "sku": "22_04-lts-cvm"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-confidential-vm-tdx-jammy",
+      "sku": "22_04-lts-cvm-tdx"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-minimal-bionic",
+      "sku": "minimal-18_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-minimal-bionic",
+      "sku": "minimal-18_04-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-minimal-focal",
+      "sku": "minimal-20_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-minimal-focal",
+      "sku": "minimal-20_04-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-minimal-focal-daily",
+      "sku": "minimal-20_04-daily-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-minimal-focal-daily",
+      "sku": "minimal-20_04-daily-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-minimal-jammy",
+      "sku": "minimal-22_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-minimal-jammy",
+      "sku": "minimal-22_04-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-minimal-jammy-aks-daily",
+      "sku": "minimal-aks-22_04-daily-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-minimal-jammy-aks-daily",
+      "sku": "minimal-aks-22_04-daily-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-minimal-jammy-daily",
+      "sku": "minimal-22_04-daily-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-minimal-jammy-daily",
+      "sku": "minimal-22_04-daily-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-minimal-kinetic",
+      "sku": "minimal-22_10-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla",
+      "sku": "16_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla",
+      "sku": "16_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla",
+      "sku": "18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla",
+      "sku": "18_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla",
+      "sku": "20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla",
+      "sku": "20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla",
+      "sku": "22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla",
+      "sku": "22_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "18_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "18_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "20_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "22_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "22_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "24_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "24_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "24_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "26_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "26_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "26_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-cis-minimal-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-cis-minimal-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-cis-minimal-22_04-level-1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-cis-minimal-22_04-level-1-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-cis-minimal-22_04-level-2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-cis-minimal-22_04-level-2-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-fips-18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-fips-18_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-fips-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-fips-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-fips-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-fips-22_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-fips-22_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-minimal-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-minimal-20_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-minimal-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-minimal-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-minimal-22_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-minimal-22_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-minimal-24_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-minimal-24_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-minimal-24_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-minimal-26_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-minimal-26_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-airdig",
+      "sku": "pro-minimal-26_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-att",
+      "sku": "02-pro-16_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-att",
+      "sku": "02-pro-16_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-att",
+      "sku": "pro-18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-att",
+      "sku": "pro-18_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-att",
+      "sku": "pro-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-att",
+      "sku": "pro-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-att",
+      "sku": "pro-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-att",
+      "sku": "pro-22_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-att",
+      "sku": "pro-24_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-att",
+      "sku": "pro-24_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "16_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "16_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "18_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "18_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "20_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "22_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "22_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-24_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-24_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-24_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-26_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-26_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-26_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-cis-minimal-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-cis-minimal-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-cis-minimal-22_04-level-1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-cis-minimal-22_04-level-1-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-cis-minimal-22_04-level-2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-cis-minimal-22_04-level-2-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-fips-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-fips-22_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-fips-22_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-minimal-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-minimal-20_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-minimal-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-minimal-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-minimal-22_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-minimal-22_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-minimal-24_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-minimal-24_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-minimal-24_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-minimal-26_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-minimal-26_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ca",
+      "sku": "pro-minimal-26_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-csw",
+      "sku": "pro-16_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-csw",
+      "sku": "pro-16_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-csw",
+      "sku": "pro-18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-csw",
+      "sku": "pro-18_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-csw",
+      "sku": "pro-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-csw",
+      "sku": "pro-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-csw",
+      "sku": "pro-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-csw",
+      "sku": "pro-22_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-da",
+      "sku": "16_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-da",
+      "sku": "16_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-da",
+      "sku": "18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-da",
+      "sku": "18_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-da",
+      "sku": "20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-da",
+      "sku": "20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-da",
+      "sku": "22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-da",
+      "sku": "22_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-nestle",
+      "sku": "pro-18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-nestle",
+      "sku": "pro-18_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-nestle",
+      "sku": "pro-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-nestle",
+      "sku": "pro-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-nestle",
+      "sku": "pro-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-nestle",
+      "sku": "pro-22_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-shell",
+      "sku": "pro-16_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-shell",
+      "sku": "pro-16_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-shell",
+      "sku": "pro-18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-shell",
+      "sku": "pro-18_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-shell",
+      "sku": "pro-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-shell",
+      "sku": "pro-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-shell",
+      "sku": "pro-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-shell",
+      "sku": "pro-22_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-shell",
+      "sku": "pro-fips-16_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-shell",
+      "sku": "pro-fips-16_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-shell",
+      "sku": "pro-fips-18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-shell",
+      "sku": "pro-fips-18_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-shell",
+      "sku": "pro-fips-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-shell",
+      "sku": "pro-fips-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "16_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "16_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "18_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "18_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "20_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "22_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "22_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "24_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "24_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "24_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "26_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "26_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-sk",
+      "sku": "26_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-16_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-16_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-18_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-22_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-24_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-24_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-26_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-26_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-26_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-cis-minimal-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-cis-minimal-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-cis-minimal-22_04-level-1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-cis-minimal-22_04-level-1-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-cis-minimal-22_04-level-2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-cis-minimal-22_04-level-2-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-fips-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-fips-22_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-minimal-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-minimal-20_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-minimal-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-minimal-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-minimal-22_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-minimal-22_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-minimal-24_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-minimal-24_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-minimal-24_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-minimal-26_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-minimal-26_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-ub01",
+      "sku": "pro-minimal-26_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-unp",
+      "sku": "pro-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-unp",
+      "sku": "pro-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-unp",
+      "sku": "pro-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-unp",
+      "sku": "pro-22_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-unp",
+      "sku": "pro-24_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-unp",
+      "sku": "pro-24_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-unp",
+      "sku": "pro-fips-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-advanced-sla-unp",
+      "sku": "pro-fips-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-bionic",
+      "sku": "pro-18_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-bionic",
+      "sku": "pro-18_04-lts-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-bionic",
+      "sku": "pro-18_04-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-bionic-fips",
+      "sku": "pro-fips-18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-bionic-fips",
+      "sku": "pro-fips-18_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-confidential-vm-jammy",
+      "sku": "pro-22_04-lts-cvm"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-focal",
+      "sku": "pro-20_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-focal",
+      "sku": "pro-20_04-lts-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-focal",
+      "sku": "pro-20_04-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-focal-anbox",
+      "sku": "anbox-server-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-focal-anbox",
+      "sku": "anbox-server-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-focal-fips",
+      "sku": "pro-fips-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-focal-fips",
+      "sku": "pro-fips-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-jammy",
+      "sku": "pro-22_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-jammy",
+      "sku": "pro-22_04-lts-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-jammy",
+      "sku": "pro-22_04-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-jammy-fips",
+      "sku": "pro-fips-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-jammy-fips",
+      "sku": "pro-fips-22_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-jammy-fips",
+      "sku": "pro-fips-22_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "18_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "18_04-lts-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "18_04-lts-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-14_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-16_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-16_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-18_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-22_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-24_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-24_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-24_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-26_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-26_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-26_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-cis-minimal-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-cis-minimal-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-fips-18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-fips-18_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-fips-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-fips-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-fips-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-fips-22_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-fips-22_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-minimal-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-minimal-22_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-minimal-22_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-minimal-24_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-minimal-24_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-minimal-24_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-minimal-26_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-minimal-26_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-microsoft",
+      "sku": "pro-minimal-26_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-minimal-cis-focal",
+      "sku": "pro-cis-minimal-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-minimal-cis-focal",
+      "sku": "pro-cis-minimal-20_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-minimal-cis-jammy",
+      "sku": "pro-cis-minimal-22_04-level-1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-minimal-cis-jammy",
+      "sku": "pro-cis-minimal-22_04-level-1-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-minimal-cis-jammy",
+      "sku": "pro-cis-minimal-22_04-level-2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-minimal-cis-jammy",
+      "sku": "pro-cis-minimal-22_04-level-2-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-minimal-focal",
+      "sku": "pro-minimal-20_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-minimal-focal",
+      "sku": "pro-minimal-20_04-lts-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-minimal-focal",
+      "sku": "pro-minimal-20_04-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-trusty",
+      "sku": "pro-14_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-xenial",
+      "sku": "pro-16_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-xenial",
+      "sku": "pro-16_04-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-xenial-fips",
+      "sku": "pro-fips-16_04-private"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-pro-xenial-fips",
+      "sku": "pro-fips-16_04-private-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-arm-preview-focal",
+      "sku": "20_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-bionic-wm",
+      "sku": "18_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-bionic-wm",
+      "sku": "18_04-lts-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-bionic-wm",
+      "sku": "18_04-lts-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-eoan",
+      "sku": "19_10-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-focal",
+      "sku": "20_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-focal",
+      "sku": "20_04-lts-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-focal",
+      "sku": "20_04-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-focal-daily",
+      "sku": "20_04-daily-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-focal-daily",
+      "sku": "20_04-daily-lts-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-focal-daily",
+      "sku": "20_04-daily-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-groovy",
+      "sku": "20_10"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-hirsute",
+      "sku": "21_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-hirsute",
+      "sku": "21_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-impish",
+      "sku": "21_10"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-impish",
+      "sku": "21_10-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-jammy",
+      "sku": "22_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-jammy",
+      "sku": "22_04-lts-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-jammy",
+      "sku": "22_04-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-jammy-daily",
+      "sku": "22_04-daily-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-jammy-daily",
+      "sku": "22_04-daily-lts-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-jammy-daily",
+      "sku": "22_04-daily-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-kinetic",
+      "sku": "22_10"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "0001-com-ubuntu-server-kinetic",
+      "sku": "22_10-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "18_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "18_04-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "18_04-lts-minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "18_04-lts-minimal-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "20_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "20_04-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "20_04-lts-minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "20_04-lts-minimal-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "22_04-lts"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "22_04-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "22_04-lts-minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "22_04-lts-minimal-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "22_10"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "22_10-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "22_10-minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "22_10-minimal-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "23_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "23_04-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "23_04-minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu",
+      "sku": "23_04-minimal-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "cvm"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "minimal-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "server"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "server-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "server-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-minimal-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-pro"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-pro-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-pro-cvm"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-pro-fips"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-pro-fips-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-pro-fips-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-pro-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-pro-minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-pro-minimal-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-pro-minimal-cis-level-1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-pro-minimal-cis-level-1-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-pro-minimal-cis-level-2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-pro-minimal-cis-level-2-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts",
+      "sku": "ubuntu-pro-minimal-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts-daily",
+      "sku": "minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts-daily",
+      "sku": "minimal-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts-daily",
+      "sku": "server"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts-daily",
+      "sku": "server-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-22_04-lts-daily",
+      "sku": "server-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "cvm"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "minimal-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "minimal-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "server"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "server-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "server-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "specialized-hardware"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "ubuntu-pro"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "ubuntu-pro-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "ubuntu-pro-cvm"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "ubuntu-pro-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "ubuntu-pro-minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "ubuntu-pro-minimal-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "ubuntu-pro-minimal-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts",
+      "sku": "ubuntu-pro-specialized-hardware"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts-daily",
+      "sku": "minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts-daily",
+      "sku": "minimal-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts-daily",
+      "sku": "minimal-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts-daily",
+      "sku": "server"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts-daily",
+      "sku": "server-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-24_04-lts-daily",
+      "sku": "server-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_04",
+      "sku": "server"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_04",
+      "sku": "server-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_04",
+      "sku": "server-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_04-daily",
+      "sku": "minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_04-daily",
+      "sku": "minimal-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_04-daily",
+      "sku": "minimal-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_04-daily",
+      "sku": "server"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_04-daily",
+      "sku": "server-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_04-daily",
+      "sku": "server-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_10",
+      "sku": "minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_10",
+      "sku": "minimal-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_10",
+      "sku": "minimal-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_10",
+      "sku": "server"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_10",
+      "sku": "server-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_10",
+      "sku": "server-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_10-daily",
+      "sku": "minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_10-daily",
+      "sku": "minimal-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_10-daily",
+      "sku": "minimal-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_10-daily",
+      "sku": "server"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_10-daily",
+      "sku": "server-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-25_10-daily",
+      "sku": "server-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts",
+      "sku": "minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts",
+      "sku": "minimal-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts",
+      "sku": "minimal-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts",
+      "sku": "pro-minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts",
+      "sku": "pro-minimal-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts",
+      "sku": "pro-minimal-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts",
+      "sku": "pro-server"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts",
+      "sku": "pro-server-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts",
+      "sku": "pro-server-cvm"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts",
+      "sku": "pro-server-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts",
+      "sku": "server"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts",
+      "sku": "server-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts",
+      "sku": "server-cvm"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts",
+      "sku": "server-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts-daily",
+      "sku": "minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts-daily",
+      "sku": "minimal-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts-daily",
+      "sku": "minimal-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts-daily",
+      "sku": "server"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts-daily",
+      "sku": "server-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_04-lts-daily",
+      "sku": "server-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_10-daily",
+      "sku": "minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_10-daily",
+      "sku": "minimal-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_10-daily",
+      "sku": "minimal-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_10-daily",
+      "sku": "server"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_10-daily",
+      "sku": "server-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-26_10-daily",
+      "sku": "server-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-core-24-private",
+      "sku": "ubuntu-core"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-26_04-lts",
+      "sku": "minimal"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-26_04-lts",
+      "sku": "minimal-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-26_04-lts",
+      "sku": "minimal-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-26_04-lts",
+      "sku": "server"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-26_04-lts",
+      "sku": "server-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-26_04-lts",
+      "sku": "server-cvm"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-26_04-lts",
+      "sku": "server-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-18_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-20_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-22_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-24_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-24_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-26_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-26_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-26_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-fips-18_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-fips-18_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-fips-20_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-fips-20_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-fips-22_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-fips-22_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-minimal-26_04"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-minimal-26_04-arm64"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "ubuntu-pro-infra-and-apps-24x7-support",
+      "sku": "pro-minimal-26_04-gen1"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "UbuntuServer",
+      "sku": "16_04_0-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "UbuntuServer",
+      "sku": "16_04-lts-gen2"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "UbuntuServer",
+      "sku": "16.04-LTS"
+    },
+    {
+      "publisher": "Canonical",
+      "offer": "UbuntuServer",
+      "sku": "16.04.0-LTS"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "office-365",
+      "sku": "1903-evd-o365pp"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "office-365",
+      "sku": "19h2-evd-o365pp"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "office-365",
+      "sku": "19h2-evd-o365pp-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "office-365",
+      "sku": "20h1-evd-o365pp"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "office-365",
+      "sku": "20h1-evd-o365pp-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "office-365",
+      "sku": "21h1-evd-o365pp"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "office-365",
+      "sku": "21h1-evd-o365pp-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "office-365",
+      "sku": "rs5-evd-o365pp"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "office-365",
+      "sku": "win10-22h2-avd-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "office-365",
+      "sku": "win10-22h2-avd-m365-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "office-365",
+      "sku": "win11-22h2-avd-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "office-365",
+      "sku": "win11-23h2-avd-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "office-365",
+      "sku": "win11-24h2-avd-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "office-365",
+      "sku": "win11-25h2-avd-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "19h1-ent"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "19h1-entn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "19h1-evd"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "19h1-pro"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "19h1-pron"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "19h2-ent-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "19h2-entn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "19h2-entn-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "19h2-evd"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "19h2-evd-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "19h2-pro"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "19h2-pron"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "20h1-ent"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "20h1-ent-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "20h1-entn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "20h1-entn-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "20h1-evd"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "20h1-evd-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "20h1-pro-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "20h1-pro-zh-cn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "20h1-pron"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "20h1-pron-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "20h2-pro-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "20h2-pro-zh-cn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "20h2-pron"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "20h2-pron-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "21h1-ent-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "21h1-entn-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "21h1-evd"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "21h1-evd-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "21h1-pro-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "21h1-pro-zh-cn-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "21h1-pron"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "21h1-pron-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "rs1-enterprise"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "rs1-enterprise-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "rs1-enterprisen"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "rs1-enterprisen-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "rs5-enterprise"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "rs5-enterprise-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "rs5-enterprise-standard"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "rs5-enterprisen"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "rs5-enterprisen-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "rs5-enterprisen-standard"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "rs5-evd"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-21h2-ent-ltsc"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-21h2-ent-ltsc-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-21h2-entn-ltsc"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-21h2-entn-ltsc-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-22h2-avd"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-22h2-avd-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-22h2-ent"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-22h2-ent-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-22h2-entn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-22h2-entn-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-22h2-pro"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-22h2-pro-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-22h2-pro-zh-cn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-22h2-pro-zh-cn-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-22h2-pron"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "Windows-10",
+      "sku": "win10-22h2-pron-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-23h2-avd"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-23h2-ent"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-23h2-entn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-24h2-avd"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-24h2-ent"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-24h2-ent-ltsc"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-24h2-entn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-24h2-entn-ltsc"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-24h2-pro"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-24h2-pro-zh-cn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-24h2-pron"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-25h2-avd"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-25h2-ent"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-25h2-entn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-25h2-pro"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-25h2-pro-zh-cn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-11",
+      "sku": "win11-25h2-pron"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-7",
+      "sku": "win7-enterprise"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "19h2-ent-cpc-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "19h2-ent-cpc-m365-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "20h1-ent-cpc-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "20h1-ent-cpc-os"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "20h2-ent-cpc-os"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "21h1-ent-cpc-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "21h1-ent-cpc-m365-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "21h1-ent-cpc-os"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "21h1-ent-cpc-os-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "win10-21h2-ent-cpc-os"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "win10-22h2-ent-cpc"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "win10-22h2-ent-cpc-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "win11-22h2-ent-cpc"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "win11-22h2-ent-cpc-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "win11-23h2-ent-cpc"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "win11-23h2-ent-cpc-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "win11-24h2-ent-cpc"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "win11-24h2-ent-cpc-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "win11-25h2-ent-cpc"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "win11-25h2-ent-cpc-devready"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows-ent-cpc",
+      "sku": "win11-25h2-ent-cpc-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows10preview",
+      "sku": "win10-22h2-avd-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows10preview",
+      "sku": "win10-22h2-avd-m365-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows10preview",
+      "sku": "win10-22h2-ent-cpc-m365-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-21h2-avd-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-21h2-ent"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-21h2-ent-cpc-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-21h2-pro"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-23h2-ent-cpc-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-25h2-avd"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-25h2-avd-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-25h2-ent"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-25h2-ent-arm64"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-25h2-ent-cpc"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-25h2-ent-cpc-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-25h2-entn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-25h2-pro"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-25h2-pro-zh-cn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-25h2-pron"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-26h2-avd"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-26h2-avd-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-26h2-ent"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-26h2-ent-arm64"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-26h2-ent-cpc"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-26h2-ent-cpc-m365"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-26h2-entn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-26h2-pro"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-26h2-pro-arm64"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-26h2-pro-zh-cn"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview",
+      "sku": "win11-26h2-pron"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview-arm64",
+      "sku": "win11-22h2-ent"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview-arm64",
+      "sku": "win11-23h2-ent"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview-arm64",
+      "sku": "win11-24h2-ent"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview-arm64",
+      "sku": "win11-24h2-pro"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview-arm64",
+      "sku": "win11-25h2-ent"
+    },
+    {
+      "publisher": "MicrosoftWindowsDesktop",
+      "offer": "windows11preview-arm64",
+      "sku": "win11-25h2-pro"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "microsoftserveroperatingsystems-previews",
+      "sku": "windows-server-2022"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "microsoftserveroperatingsystems-previews",
+      "sku": "windows-server-2022-azure-edition-core-preview"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "microsoftserveroperatingsystems-previews",
+      "sku": "windows-server-2022-azure-edition-preview"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "microsoftserveroperatingsystems-previews",
+      "sku": "windows-server-vnext-azure-edition"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "microsoftserveroperatingsystems-previews",
+      "sku": "windows-server-vnext-azure-edition-core"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2008-R2-SP1"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2008-R2-SP1-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2008-R2-SP1-zhcn"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2016-Datacenter"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2016-datacenter-gensecond"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2016-datacenter-gs"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2016-Datacenter-Server-Core"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2016-datacenter-server-core-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2016-Datacenter-Server-Core-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2016-datacenter-server-core-smalldisk-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2016-Datacenter-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2016-datacenter-smalldisk-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2016-datacenter-with-containers-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2016-Datacenter-zhcn"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2016-datacenter-zhcn-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-Datacenter"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-Datacenter-Core"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-datacenter-core-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-Datacenter-Core-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-datacenter-core-smalldisk-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-Datacenter-Core-with-Containers"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-datacenter-core-with-containers-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-datacenter-core-with-containers-smalldisk-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-datacenter-gensecond"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-datacenter-gs"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-datacenter-gs-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-Datacenter-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-datacenter-smalldisk-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-datacenter-with-containers-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-datacenter-with-containers-gs"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-Datacenter-with-Containers-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-datacenter-with-containers-smalldisk-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-Datacenter-zhcn"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2019-datacenter-zhcn-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2022-datacenter"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2022-datacenter-azure-edition"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2022-datacenter-azure-edition-core"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2022-datacenter-azure-edition-core-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2022-datacenter-azure-edition-hotpatch"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2022-datacenter-azure-edition-hotpatch-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2022-datacenter-azure-edition-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2022-datacenter-core"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2022-datacenter-core-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2022-datacenter-core-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2022-datacenter-core-smalldisk-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2022-datacenter-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2022-datacenter-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2022-datacenter-smalldisk-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2025-datacenter"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2025-datacenter-azure-edition"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2025-datacenter-azure-edition-core"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2025-datacenter-azure-edition-core-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2025-datacenter-azure-edition-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2025-datacenter-core"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2025-datacenter-core-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2025-datacenter-core-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2025-datacenter-core-smalldisk-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2025-datacenter-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2025-datacenter-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2025-datacenter-smalldisk-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "23h2-datacenter-core"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "23h2-datacenter-core-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "Datacenter-Core-1903-with-Containers-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "datacenter-core-1909-with-containers-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "datacenter-core-20h2-with-containers-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "datacenter-core-20h2-with-containers-smalldisk-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserver-previewtest",
+      "sku": "2019-datacenterta3z"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserver2022",
+      "sku": "2022-datacenter"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserver2022",
+      "sku": "2022-datacenter-azure-edition"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserver2022",
+      "sku": "2022-datacenter-azure-edition-core"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserver2022",
+      "sku": "2022-datacenter-azure-edition-core-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserver2022",
+      "sku": "2022-datacenter-azure-edition-hotpatch"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserver2022",
+      "sku": "2022-datacenter-azure-edition-hotpatch-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserver2022",
+      "sku": "2022-datacenter-azure-edition-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserver2022",
+      "sku": "2022-datacenter-core"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserver2022",
+      "sku": "2022-datacenter-core-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserver2022",
+      "sku": "2022-datacenter-core-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserver2022",
+      "sku": "2022-datacenter-core-smalldisk-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserver2022",
+      "sku": "2022-datacenter-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserver2022",
+      "sku": "2022-datacenter-smalldisk"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserver2022",
+      "sku": "2022-datacenter-smalldisk-g2"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserverhotpatch-previews",
+      "sku": "windows-server-2022-azure-edition-hotpatch"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserverupgrade",
+      "sku": "server2012upgrade"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserverupgrade",
+      "sku": "server2016upgrade"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserverupgrade",
+      "sku": "server2019upgrade"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserverupgrade",
+      "sku": "server2022upgrade"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserverupgrade",
+      "sku": "server2025aeupgrade"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "windowsserverupgrade",
+      "sku": "server2025upgrade"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "wri-privatepreview",
+      "sku": "2025-datacenter-azure-edition-wir-pp"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "wri-privatepreview",
+      "sku": "2025-datacenter-wir-pp"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "wri-privatepreview",
+      "sku": "win11-24h2-ent-wir-pp"
+    },
+    {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "wri-privatepreview",
+      "sku": "win11-24h2-pro-wir-pp"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "osa",
+      "sku": "osa_311"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh_rhel_7_latest",
+      "sku": "rhel7a_latest"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh_rhel_7_latest",
+      "sku": "rhel7a_latest_gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh_rhel_7_latest",
+      "sku": "rhel7b_latest"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh_rhel_7_latest",
+      "sku": "rhel7b_latest_gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh_rhel_7_latest",
+      "sku": "rhel7c_latest"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh_rhel_7_latest",
+      "sku": "rhel7c_latest_gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh_rhel_8_vm",
+      "sku": "rhel8-c"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh_rhel_8_vm",
+      "sku": "rhel8-c-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-ansible-self-managed",
+      "sku": "rh-aap2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-ansible-self-managed",
+      "sku": "rh-aap2-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-ansible-self-managed",
+      "sku": "rh-aap2-gen1-internal"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-ansible-self-managed",
+      "sku": "rh-aap2-internal"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-eap74-rhel8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-eap74-rhel8-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap74-jdk11-rhel8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap74-jdk11-rhel8-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap74-jdk17-rhel8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap74-jdk17-rhel8-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap74-jdk8-rhel8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap74-jdk8-rhel8-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap74-rhel8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap74-rhel8-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap8-jdk11-rhel9"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap8-jdk11-rhel9-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap8-jdk17-rhel9"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap8-jdk17-rhel9-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap8-jdk21-rhel9"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap8-jdk21-rhel9-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap81-jdk21-rhel9"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-jboss-eap",
+      "sku": "rh-jboss-eap81-jdk21-rhel9-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-ocp-worker",
+      "sku": "rh-ocp-worker"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-ocp-worker",
+      "sku": "rh-ocp-worker-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-oke-worker",
+      "sku": "rh-oke-worker"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-oke-worker",
+      "sku": "rh-oke-worker-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-opp-worker",
+      "sku": "rh-opp-worker"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-opp-worker",
+      "sku": "rh-opp-worker-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhaie",
+      "sku": "rh-rhaie-3"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhaie",
+      "sku": "rh-rhaie-3-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel",
+      "sku": "rh-rhel-internal"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel",
+      "sku": "rh-rhel10"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel",
+      "sku": "rh-rhel10-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel",
+      "sku": "rh-rhel10-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel",
+      "sku": "rh-rhel7"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel",
+      "sku": "rh-rhel7-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel",
+      "sku": "rh-rhel8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel",
+      "sku": "rh-rhel8-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel",
+      "sku": "rh-rhel9"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel",
+      "sku": "rh-rhel9-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel",
+      "sku": "rh-rhel9-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-amd-1gpu"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-amd-1gpu-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-amd-2gpu"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-amd-2gpu-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-amd-4gpu"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-amd-4gpu-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-amd-8gpu"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-amd-8gpu-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-internal"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-internal-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-nvidia-1gpu"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-nvidia-1gpu-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-nvidia-2gpu"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-nvidia-2gpu-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-nvidia-4gpu"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-nvidia-4gpu-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-nvidia-8gpu"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-ai",
+      "sku": "rh-rhelai-nvidia-8gpu-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-hpc",
+      "sku": "rh-rhel-hpc96"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel-sap-haus"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel-sap-haus-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel-sap-haus-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel10-sap-haus"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel10-sap-haus-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel102-sap-haus"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel102-sap-haus-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel8-sap-haus"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel8-sap-haus-gen1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel810-sap-haus"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel810-sap-haus-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel86-sap-haus"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel88-sap-haus"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel88-sap-haus-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel90-sap-haus"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel90-sap-haus-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel92-sap-haus"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel92-sap-haus-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel94-sap-haus"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel94-sap-haus-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel96-sap-haus"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel96-sap-haus-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel98-sap-haus"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rh-rhel-sap-haus",
+      "sku": "rh-rhel98-sap-haus-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "10_0"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "10_1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "10_2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "10_2-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "10-lvm"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "10-lvm-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "100-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "101-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "7_9"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "7-LVM"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "79-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "7lvm-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "8_10"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "8_3"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "8_4"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "8_5"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "8_6"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "8_7"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "8_8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "8_9"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "8-LVM"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "8-lvm-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "810-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "83-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "84-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "85-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "86-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "87-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "88-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "89-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "9_0"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "9_1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "9_2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "9_3"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "9_4"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "9_5"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "9_6"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "9_7"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "9_8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "9_8-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "9-lvm"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "9-lvm-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "90-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "91-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "92-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "93-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "94_gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "95_gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "96-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL",
+      "sku": "97-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel_test_offers",
+      "sku": "10_0_sap_apps"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel_test_offers",
+      "sku": "10_0_sap_apps-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel_test_offers",
+      "sku": "10_0_sap_ha"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel_test_offers",
+      "sku": "10_0_sap_ha-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "10_0-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "10_1-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "10_2-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "8_10-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "8_6-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "8_7-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "8_8-arm64-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "9_0-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "9_1-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "9_2-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "9_3-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "9_4-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "9_5-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "9_6-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "9_7-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-arm64",
+      "sku": "9_8-arm64"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm-92-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm74"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm75"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm76"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm76-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm77"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm77-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm78"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm78-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm79"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm79-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm8-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm81"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm81-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm810"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm810-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm82"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm82-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm83"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm83-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm84"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm84-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm85"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm85-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm86"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm86-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm87"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm87-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm88"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm88-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm89"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm89-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm90"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm90-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm91"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm91-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm92"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm93"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm93-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm94"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm94-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm95"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm95-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm96"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm96-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm97"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm97-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm98"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos",
+      "sku": "rhel-lvm98-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-byos-test",
+      "sku": "rhel-byos-test-plan"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-cpp-test",
+      "sku": "test_plan_1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-cvm",
+      "sku": "10_0_cvm"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-cvm",
+      "sku": "10_1_cvm"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-cvm",
+      "sku": "10_2_cvm"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-cvm",
+      "sku": "9_4_cvm"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-cvm",
+      "sku": "9_5_cvm"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-cvm",
+      "sku": "9_6_cvm"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-cvm",
+      "sku": "9_7_cvm"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-cvm",
+      "sku": "9_8_cvm"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-cvm-test",
+      "sku": "9_5_cvm"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-for-edewe",
+      "sku": "96-edewe"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-for-edewe",
+      "sku": "96-edewe-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "8_10"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "8_10-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "8_4"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "8_4-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "8_6"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "8_6-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "8_8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "8_8-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "9_2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "9_2-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "rhel_10_0_with_ha_add_on"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "rhel_10_0_with_ha_add_on-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "rhel_10_2_with_ha_add_on"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "rhel_10_2_with_ha_add_on-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "rhel_9_4_with_ha_add_on"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "rhel_9_4_with_ha_add_on-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "rhel_9_6_with_ha_add_on"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "rhel_9_6_with_ha_add_on-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "rhel_9_8_with_ha_add_on"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-HA",
+      "sku": "rhel_9_8_with_ha_add_on-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-mp-cert-test",
+      "sku": "rhel-mp-cert-test"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "10_0"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "10_1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "10_2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "10_2-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "10-raw"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "10-raw-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "100-raw-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "101-raw-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "7_6"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "7_7"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "7-raw"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "7-raw-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "76-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "77-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "8_0"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "8_1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "8_10"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "8_2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "8_3"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "8_4"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "8_6"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "8_7"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "8_8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "8_9"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "8-raw"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "8-raw-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "80-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "81-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "810-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "82-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "83-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "84-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "86-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "87-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "88-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "89-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "9_2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "9_4"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "9_5"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "9_6"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "9_7"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "9_8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "9_8-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "9-raw"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "9-raw-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "92_gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "94_gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "95_gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "96-raw"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-raw",
+      "sku": "97-raw-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP",
+      "sku": "76-ci"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP",
+      "sku": "76-ci-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "10_0"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "10_2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "100sapapps-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "102sapapps-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "7_9"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "79sapapps-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "8_1"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "8_10"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "8_2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "8_4"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "8_6"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "8_8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "810sapapps-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "81sapapps-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "82sapapps-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "84sapapps-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "86sapapps-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "88sapapps-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "9_0"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "9_2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "9_4"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "9_6"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "9_8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "90sapapps-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "92sapapps-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "94sapapps-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "96sapapps-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sap-apps",
+      "sku": "98sapapps-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "10_0"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "10_2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "100sapha-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "102sapha-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "7_9"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "79sapha-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "8_10"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "8_4"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "8_6"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "8_8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "810sapha-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "84sapha-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "86sapha-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "88sapha-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "9_0"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "9_2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "9_4"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "9_6"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "9_8"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "90sapha-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "92sapha-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "94sapha-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "96sapha-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "RHEL-SAP-HA",
+      "sku": "98sapha-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sig-publishing-test",
+      "sku": "9_0"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sig-publishing-test",
+      "sku": "9-gen2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-sig-publishing-test",
+      "sku": "rhel78-test"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-test-billing",
+      "sku": "core_vm_test"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-test-billing",
+      "sku": "core_vm_test_wo_billing"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-test-billing",
+      "sku": "core_vm_test_wo_billing_2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "rhel-test-billing",
+      "sku": "core_vm_test2"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "test_offer_china",
+      "sku": "rhel_china_test"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "test-rhel-byos",
+      "sku": "another-test-plan"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "test-rhel-byos",
+      "sku": "test-private"
+    },
+    {
+      "publisher": "RedHat",
+      "offer": "test-rhel-byos",
+      "sku": "test-private-plan"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "manager-proxy-5-1-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "manager-proxy-5-1-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "manager-proxy-5-1-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "manager-server-4-1-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "manager-server-4-1-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "manager-server-4-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "manager-server-5-1-arm64-llc-image",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "manager-server-5-1-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "manager-server-5-1-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "manager-server-5-1-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "manager-server-5-1-llc-image",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "manager-server-5-1-llc-image",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "openSUSE-Leap",
+      "sku": "15-2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "opensuse-leap-15-3",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "opensuse-leap-15-6",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "opensuse-leap-15-6",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "opensuse-leap-15-6-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-hpc-15-sp4-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-hpc-15-sp4-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-hpc-15-sp5",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-hpc-15-sp5",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-hpc-15-sp5-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-hpc-15-sp5-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-hpc-15-sp6",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-hpc-15-sp6",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-hpc-15-sp6-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-hpc-15-sp6-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-hpc-15-sp7",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-hpc-15-sp7",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-hpc-15-sp7-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-hpc-15-sp7-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-5-3-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-5-3-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-5-3-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-5-4-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-5-4-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-5-4-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-5-5-arm64-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-5-5-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-5-5-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-5-5-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-5-5-llc",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-5-5-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-6-0-arm64-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-6-0-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-6-0-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-6-0-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-6-0-llc",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-6-0-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-6-1-arm64-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-6-1-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-6-1-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-6-1-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-6-1-llc",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sle-micro-6-1-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-12-sp5",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-12-sp5",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-12-sp5-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-12-sp5-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-12-sp5-hpc",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-12-sp5-hpc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-12-sp5-hpc-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-12-sp5-hpc-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp2",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp2-basic",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp3",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp3-basic",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp3-basic",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp4",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp4-basic",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp4-basic",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp4-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp4-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp4-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp4-chost-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp4-chost-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp4-chost-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp4-hardened-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp4-hardened-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp4-sapcal",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp4-sapcal",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-arm64-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-basic",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-basic",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-chost-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-chost-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-chost-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-hardened-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-hardened-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-llc",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-sapcal",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp5-sapcal",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-arm64-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-basic",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-basic",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-chost-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-chost-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-chost-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-hardened-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-hardened-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-llc",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-sapcal",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp6-sapcal",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-arm64-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-basic",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-basic",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-chost-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-chost-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-chost-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-hardened-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-hardened-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-llc",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-sapcal",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-15-sp7-sapcal",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-arm64-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-basic-x86-64",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-basic-x86-64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-byos-x86-64",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-byos-x86-64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-chost-byos-arm64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-chost-byos-x86-64",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-chost-byos-x86-64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-hardened-byos-x86-64",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-hardened-byos-x86-64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-sapcal-x86-64",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-sapcal-x86-64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-x86-64",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-x86-64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-x86-64-llc",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-16-0-x86-64-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "SLES-BYOS",
+      "sku": "11-SP4"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "SLES-BYOS",
+      "sku": "12-SP3"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "SLES-BYOS",
+      "sku": "12-sp4"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "SLES-BYOS",
+      "sku": "15"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "SLES-SAP",
+      "sku": "12-SP3"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "SLES-SAP",
+      "sku": "12-sp4"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "SLES-SAP",
+      "sku": "15"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "SLES-SAP",
+      "sku": "15-gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "SLES-SAP",
+      "sku": "gen2-15"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-12-sp5",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-12-sp5",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-12-sp5-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-12-sp5-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp4",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp4",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp4-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp4-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp4-hardened",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp4-hardened",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp4-hardened-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp4-hardened-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp5",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp5",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp5-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp5-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp5-hardened",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp5-hardened",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp5-hardened-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp5-hardened-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp5-llc",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp5-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp6",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp6",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp6-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp6-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp6-hardened",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp6-hardened",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp6-hardened-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp6-hardened-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp6-llc",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp6-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp7",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp7",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp7-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp7-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp7-hardened",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp7-hardened",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp7-hardened-byos",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp7-hardened-byos",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp7-llc",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp7-llc",
+      "sku": "gen1_volvo_q-217213"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp7-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-15-sp7-llc",
+      "sku": "gen2_volvo_q-217213"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-16-0-byos-x86-64",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-16-0-byos-x86-64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-16-0-x86-64",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-16-0-x86-64",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-16-0-x86-64-llc",
+      "sku": "gen1"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "sles-sap-16-0-x86-64-llc",
+      "sku": "gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "SLES-SAP-BYOS",
+      "sku": "12-SP3"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "SLES-SAP-BYOS",
+      "sku": "12-sp4"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "SLES-SAP-BYOS",
+      "sku": "12-sp4-gen2"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "SLES-SAP-BYOS",
+      "sku": "15"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "SLES-SAP-BYOS",
+      "sku": "gen2-12-sp4"
+    },
+    {
+      "publisher": "SUSE",
+      "offer": "SLES-SAPCAL",
+      "sku": "12-sp3"
+    }
+  ],
+  "errors": []
+}
