@@ -195,21 +195,18 @@ Update-AzVM -ResourceGroupName <rg> -VM $vm
 
 ### 3.2 Update + reimage
 
-Reimage is driven by a **VM resource tag**, not a request body property. Set the tag immediately before the PATCH:
+Reimage is driven by a **VM resource tag**, not a typed property under `properties`. The `ReimageOnImageReferenceUpdate=true` tag and the image reference update **must be included in the same PATCH operation**. Setting the tag in a separate operation does not trigger reimage.
 
-```powershell
-az tag update `
-  --resource-id "/subscriptions/<sub-id>/resourceGroups/<rg>/providers/Microsoft.Compute/virtualMachines/<vm>" `
-  --operation Merge --tags ReimageOnImageReferenceUpdate=true
-```
-
-Then issue the PATCH. A reimaging PATCH **must** include `osProfile.adminPassword`; the request is rejected with `OperationNotAllowed` otherwise. Any valid password works, it does not have to match the VM's original password.
+A reimaging PATCH must also include `osProfile.adminPassword`; the request is rejected with `OperationNotAllowed` otherwise. The password does not have to match the VM's original password, but it must be 6 to 72 characters long, contain characters from at least three of these categories (uppercase, lowercase, numeric, and special), and contain no control characters. A password that does not meet these requirements is rejected with `InvalidParameter` and internal error code `AdminPasswordInvalid`.
 
 ```powershell
 az rest --method PATCH `
   --url "https://management.azure.com/subscriptions/<sub-id>/resourceGroups/<rg>/providers/Microsoft.Compute/virtualMachines/<vm>?api-version=2024-11-01" `
   --headers "Content-Type=application/json" `
   --body '{
+    "tags": {
+      "ReimageOnImageReferenceUpdate": "true"
+    },
     "properties": {
       "storageProfile": {
         "imageReference": {
@@ -224,7 +221,7 @@ az rest --method PATCH `
   }'
 ```
 
-> **Set the tag explicitly on every update.** A leftover `ReimageOnImageReferenceUpdate=true` tag from a previous operation will reimage your VM on the next reference change. Set it to `false` when you want a metadata-only update on a VM that has previously used reimage.
+> **Include the tag explicitly in every image-reference PATCH.** Set `ReimageOnImageReferenceUpdate` to `true` for reimage or `false` for a metadata-only update. The tag remains on the VM after the operation, so do not rely on its existing value. Include any other existing VM tags in the top-level `tags` object if they must be preserved.
 
 **What reimage preserves:** VM identity, NICs, data disks, extensions configuration, tags.
 **What reimage destroys:** everything on the OS disk.
@@ -285,6 +282,7 @@ Failures return HTTP 4xx with top-level code `InvalidImageReference` and a detai
 | `OtherConfigurationMismatch` | Another VM-versus-image incompatibility. | Compare VM configuration against the image definition properties. |
 | `PropertyChangeNotAllowed` | Surfaced today for generation and some security-type rejections. | Same remedy as `IncompatibleGeneration` / `IncompatiblesecurityType`. |
 | `OperationNotAllowed` | Reimage requested without `osProfile.adminPassword`. | Add `osProfile.adminPassword` to the request body. |
+| `AdminPasswordInvalid` | The supplied admin password does not meet the length or complexity requirements. | Use 6 to 72 characters, include at least three of uppercase, lowercase, numeric, and special characters, and do not use control characters. |
 
 ---
 
@@ -299,7 +297,7 @@ Failures return HTTP 4xx with top-level code `InvalidImageReference` and a detai
 
 1. **Azure CLI has no native support.** `az vm update` cannot set `imageReference`. Use `az rest`, PowerShell, or ARM/Bicep.
 2. **Portal support is not available** in this preview. The VM Configuration blade cannot set the image reference yet.
-3. **Reimage is tag-driven, not a body property.** `reimageOnImageUpdate` as a request body field is **not** accepted on any currently registered API version. Use the `ReimageOnImageReferenceUpdate` tag as shown in 3.2. The typed property arrives with a future API version.
+3. **Reimage is tag-driven, not a typed VM property.** `reimageOnImageUpdate` under `properties` is **not** accepted on any currently registered API version. Include the `ReimageOnImageReferenceUpdate` tag in the top-level `tags` object of the same PATCH that updates the image reference, as shown in 3.2. The typed property arrives with a future API version.
 4. **Null to non-null is not included.** VMs with no image reference at all cannot have one set in this preview. See Section 4.
 5. **API version.** The preview is supported on API version `2024-11-01` and later. The API version for general availability has not been finalized, so scripts written against the preview may need updating.
 
